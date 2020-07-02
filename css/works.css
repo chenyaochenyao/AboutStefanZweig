@@ -1,0 +1,174 @@
+body{
+	margin: 0;
+	padding: 0;
+	font-family: sans-serif;
+	/*background:url(../img/bg1.jpg) no-repeat;*/
+	/*background: #E7EFF4;*/
+	/*background: url(../img/bg.jpg);*/
+	height: 100%;
+	width: 100%;
+	background-size:cover ;
+}
+.top{
+	height: 120px;
+	background: white;
+	border-bottom: 1px solid black;
+	
+}
+.top .name{
+	width: 100px;
+	height: 80px;
+	/*background: green;*/
+	margin-left: 50px;
+	margin-top:30px ;
+	float: left;
+   
+
+
+}
+.top .nav ul{
+	width: 700px;
+	height: 80px;
+	margin-top:20px ;
+	margin-bottom: 10px;
+	/*background: red;*/
+	display: flex;
+	float: right;
+	
+}
+.top .nav ul li{
+	margin-top:50px;
+	list-style: none;
+	padding-right: 10px;
+	
+	
+}
+.top .nav ul li .works{
+	width: 100%;
+	height: 100%;
+	color: white;
+	background: black;
+}
+.top .nav ul li a{
+	position: relative;
+	display: block;
+	margin: 10px 20px;
+	padding-top:8px ;
+	/*padding: 10px 30px;*/
+	text-decoration: none;
+	color: black;
+	font-weight: 700;
+	transition: .5s;
+	text-align: center;
+	
+}
+.top ul li a:hover{
+	width: 100%;
+	height: 100%;
+	color: white;
+	background: black;
+	
+}
+
+.novel{
+
+    width: 850px;
+    margin:100px auto;
+    /*background: pink;*/
+ }
+ .novel h1{
+ 	padding-bottom: 10px;
+ 	border-bottom: #3F6580 solid 1px;
+ 	text-align: center;
+ 	
+ 	
+ }
+ .novel ul{
+ 	margin-top: 100px;
+ }
+ .novel ul li{
+    float:left;
+    list-style:none;
+   width: 100px;
+    transition:all .8s;
+    position:relative;
+    overflow:hidden;
+    border-left:1px solid rgba(255,255,255,.8);
+   border-left-width:2px;
+    box-shadow:0px 0px 20px rgba(0,0,0,0.8);
+ }
+.novel ul li .image_title{
+     position:absolute;
+     width:100%;
+     height:20px;
+      background-color:rgba(0,0,0,.5);
+     font-size: x-small;
+      line-height:20px;
+      bottom:0px;
+      left:0;
+      text-transform: uppercase;
+ }
+.novel ul li .image_title a{
+    color:#fff;
+    text-decoration:none;
+}
+.novel ul:hover li{
+   width: 120px;
+    
+  }
+.novel ul li:hover{
+   width: 150px;
+    
+  }
+.biography{
+    width: 850px;
+    margin:100px auto;
+   margin-top: 500px;
+ }
+.biography h1{
+	padding-bottom: 10px;
+ 	border-bottom: #3F6580 solid 1px;
+ 	
+ 	text-align: center;
+ 	
+ 	
+ }
+.biography ul{
+ 	margin-top: 100px;   
+ 
+ }
+.biography ul li{
+    float:left;
+    list-style:none;
+   width: 100px;
+    transition:all .8s;
+    position:relative;
+    overflow:hidden;
+    border-left:1px solid rgba(255,255,255,.8);
+   border-left-width:2px;
+    box-shadow:0px 0px 20px rgba(0,0,0,0.8);
+    margin-bottom: 300px;
+ }
+.biography ul li .image_title{
+     position:absolute;
+     width:100%;
+     height:20px;
+      background-color:rgba(0,0,0,.5);
+     font-size: x-small;
+      line-height:20px;
+      bottom:0px;
+      left:0;
+      text-transform: uppercase;
+ }
+.biography ul li .image_title a{
+    color:#fff;
+    text-decoration:none;
+}
+.biography ul:hover li{
+   width: 120px;
+    
+  }
+.biography ul li:hover{
+   width: 150px;
+    
+  }

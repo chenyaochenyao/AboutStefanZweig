@@ -1,0 +1,152 @@
+body{
+	margin: 0;
+	padding: 0;
+	font-family: sans-serif;
+	/*background:url(../img/bg1.jpg) no-repeat;*/
+	/*background: #E7EFF4;*/
+	/*background: url(../img/bg.jpg);*/
+	height: 100%;
+	width: 100%;
+	background-size:cover ;
+}
+.top{
+	height: 120px;
+	background: white;
+	border-bottom: 1px solid black;
+	
+}
+.top .name{
+	width: 100px;
+	height: 80px;
+	/*background: green;*/
+	margin-left: 50px;
+	margin-top:30px ;
+	float: left;
+   
+
+
+}
+.top .nav ul{
+	width: 700px;
+	height: 80px;
+	margin-top:20px ;
+	margin-bottom: 10px;
+	/*background: red;*/
+	display: flex;
+	float: right;
+	
+}
+.top .nav ul li .quote{
+	width: 100%;
+	height: 100%;
+	color: white;
+	background: black;
+}
+.top .nav ul li{
+	margin-top:50px;
+	list-style: none;
+	padding-right: 10px;
+	
+	
+}
+.top .nav ul li a{
+	position: relative;
+	display: block;
+	margin: 10px 20px;
+	padding-top:8px ;
+	/*padding: 10px 30px;*/
+	text-decoration: none;
+	color: black;
+	font-weight: 700;
+	transition: .5s;
+	text-align: center;
+	
+}
+.top ul li a:hover{
+	width: 100%;
+	height: 100%;
+	color: white;
+	background: black;
+	
+}
+.title{
+	width: 900px;
+	margin: auto;
+	margin-top: 100px;
+}
+.title h1{
+	text-align: center;
+	padding-bottom: 10px;
+ 	border-bottom: #3F6580 solid 1px;
+}
+.container{
+	width: 900px;
+	align-content: center;
+	margin: auto;
+	margin-top:100px;
+	margin-bottom: 50px;
+	/*margin-right: 100px;*/
+	/*margin-left: 100px;*/
+	/*background: pink;*/
+	display: flex;
+	justify-content: space-between;
+	flex-wrap: wrap;
+	
+	
+}
+.container .box{
+	position: relative;
+	width: 200px;
+	height: 250px;
+	background: white;
+	padding: 50px 20px 20px;
+	box-shadow: 0 15px 45px rgba(0,0,0,.1);
+	transform: translateY(20px);
+	transition: .5s;
+
+}
+.container .box:hover{
+	background:url(../img/bg4.jpg);
+	background-size: cover;
+	transform: translateY(0px);
+
+
+}
+.container .box p{
+	/*margin-bottom: 50px;*/
+    height: 150px;
+	/*background: pink;*/
+	line-height: 150%;
+	font-family: sans-serif;
+	font-weight: 200;
+
+	
+	
+}
+.container .box:hover p{
+	font-weight: 400;
+}
+
+.container .box a{
+
+	text-decoration: none;
+	
+}
+.container .box a i{
+	color: white;
+}
+.container .box:hover a i{
+
+	color: black;
+	/*background: black;*/
+	font-size:20px;
+	font-weight: 700;
+	margin-left: 13px;
+	padding-right: 30px;
+	
+	
+}
+.container .box:hover a i:hover{
+	color: #3F6580;
+	/*color: red;*/
+}

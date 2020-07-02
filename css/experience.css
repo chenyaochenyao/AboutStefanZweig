@@ -1,0 +1,94 @@
+body{
+	margin: 0;
+	padding: 0;
+	font-family: sans-serif;
+	/*background:url(../img/bg1.jpg) no-repeat;*/
+	/*background: #E7EFF4;*/
+	/*background: url(../img/bg.jpg);*/
+	height: 100%;
+	width: 100%;
+	background-size:cover ;
+}
+.top{
+	height: 120px;
+	background: white;
+	border-bottom: 1px solid black;
+	
+}
+.top .name{
+	width: 100px;
+	height: 80px;
+	/*background: green;*/
+	margin-left: 50px;
+	margin-top:30px ;
+	float: left;
+   
+
+
+}
+.top .nav ul{
+	width: 700px;
+	height: 80px;
+	margin-top:20px ;
+	margin-bottom: 10px;
+	/*background: red;*/
+	display: flex;
+	float: right;
+	
+}
+.top .nav ul li{
+	margin-top:50px;
+	list-style: none;
+	padding-right: 10px;
+	
+	
+}
+.top .nav ul li .exp{
+	width: 100%;
+	height: 100%;
+	color: white;
+	background: black;
+}
+.top .nav ul li a{
+	position: relative;
+	display: block;
+	margin: 10px 20px;
+	padding-top:8px ;
+	/*padding: 10px 30px;*/
+	text-decoration: none;
+	color: black;
+	font-weight: 700;
+	transition: .5s;
+	text-align: center;
+	
+}
+.top ul li a:hover{
+	width: 100%;
+	height: 100%;
+	color: white;
+	background: black;
+	
+}
+.middle{
+	width: 900px;
+	height: 900px;
+    background:rgba(255,255,255,0.4) ;
+	
+	margin: auto;
+	margin-top: 50px;
+	border-radius: 5%;
+	
+}
+.middle h1{
+	/*margin-left: 10px;*/
+	text-align: center;
+	padding-bottom: 10px;
+ 	border-bottom: #3F6580 solid 1px;
+	
+}
+.middle h5{
+	margin-left:20px ;
+	font-size: 15px;
+	font-weight: 50;
+	font-family: "century gothic",sans-serif;
+}
